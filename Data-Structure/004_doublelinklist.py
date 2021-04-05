@@ -9,14 +9,15 @@ Created on 2021/02/19 22:36
 
 class Node(object):
     """定义节点"""
+
     def __init__(self, elem):
         self.elem = elem
-        self.next = None
-        self.prev = None
+        self.next = None   # 后继节点
+        self.prev = None   # 前驱节点
 
 
 class DoubleLinkList(object):
-    """singlelinklist"""
+    """DoubleLinkList"""
 
     def __init__(self, node=None):
         self.__head = node
@@ -104,16 +105,11 @@ class DoubleLinkList(object):
                 cur = cur.next
         return False
 
-if __name__=="__main__":
 
+if __name__ == "__main__":
     node1 = Node(2)
     node2 = Node(5)
     node3 = Node(9)
     print(node1.prev)
     node1.next = node2.prev
     print(node1.next)
-
-
-
-
-
