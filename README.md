@@ -1,4 +1,10 @@
 # leetcode
 ## -- leetcode的练习题 (main)
 ####    -- 数据结构的实现(Data-Structure)
+#####      -- 链表(linked list)
+######        -- 单链表(single linked list)
+######        -- 双链表(double linked list)
+#####      -- 栈(stack)
+#####      -- 队列(queue)
+#####      -- 树(tree)
 ####    -- 算法的学习(Algorithm)
