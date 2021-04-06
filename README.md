@@ -1,5 +1,4 @@
-'''
-.
+'''.
 ├── Algorithm
 │   └── 09_allSortAlgorithm.py
 ├── Data-Structure
